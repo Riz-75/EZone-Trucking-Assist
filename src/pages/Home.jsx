@@ -77,7 +77,7 @@ const Home = () => {
 
             <section className="flex flex-col gap-10 items-center">
                 <div className=" justify-center -mt-32">
-                    <img src="/truck3.webp" alt="trucks" />
+                    <img src={`${import.meta.env.BASE_URL}/truck3.webp`} alt="trucks" /> 
                 </div>
                 <div className="flex flex-col gap-20 sm:gap-14">
                     <div className="flex justify-center text-center">
